@@ -1,6 +1,6 @@
 {
   "name": "lichess-opening-explorer",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Wrapper for the Lichess Opening Explorer public API written in node.js",
   "main": "index.js",
   "scripts": {
