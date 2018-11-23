@@ -22,6 +22,7 @@ explorer.analyze('rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1', {
 
 name | type | default | description
 --- | --- | --- | ---
+**master** | boolean | false | whether you want to filter masters games
 **fen** | string | required | FEN of the position to look up
 **variant** | string | required | one of `standard`, `antichess`, `chess960`, `horde`, `racingKings`, `threeCheck`, `atomic`, `crazyhouse` or `kingOfTheHill`
 **speeds[]** | list | none | `bullet`, `blitz`, `rapid`, and/or `classical`
